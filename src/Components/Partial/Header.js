@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import GitHubIcon from "../../utils/icon/Github";
 import LinkedInIcon from "../../utils/icon/LinkedIn";
+import AsideMenu from "./AsideMenu";
 
 const Header = () => {
   return (
@@ -13,7 +14,10 @@ const Header = () => {
           Sergy
         </Link>
       </div>
-      <div id="resume" className="w-full h-full flex justify-end items-center">
+      <div
+        id="resume"
+        className="w-full h-full hidden lg:flex justify-end items-center"
+      >
         <div className="w-[40%] h-full flex justify-center items-center space-x-5">
           <a
             href="https://github.com/Sergyoubi"
@@ -39,6 +43,7 @@ const Header = () => {
           My Resume
         </a>
       </div>
+      <AsideMenu />
     </div>
   );
 };

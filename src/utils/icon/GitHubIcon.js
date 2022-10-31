@@ -3,7 +3,7 @@ const GitHubIcon = () => {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="icon icon-tabler icon-tabler-brand-github"
+        className="icon icon-tabler icon-tabler-brand-github"
         width="30"
         height="30"
         viewBox="0 0 24 24"

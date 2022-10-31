@@ -2,19 +2,19 @@ const Contact = () => {
   return (
     <>
       <div className="w-full h-[10%] bg-slate-900"></div>
-      <div className="w-full h-full bg-slate-900 flex flex-col justify-center items-center">
+      <div className="w-full h-[80%] md:h-[60%] lg:h-full bg-slate-900 flex flex-col justify-center items-center">
         <div
           id="getIntouch"
           className="w-full h-[60%] flex flex-col justify-center items-center"
         >
-          <p className="text-slate-300 text-6xl font-semibold py-5 tracking-[0.8px]">
+          <p className="text-slate-300 text-3xl lg:text-6xl font-bold lg:font-semibold py-5 tracking-[0.8px]">
             Want To Get In Touch ?
           </p>
-          <p className="text-light text-xl font-thin tracking-[0.8px] py-10">
-            Email me at : <span className="font-bold">sergyoubi@gmail.com</span>{" "}
-            or
+          <p className="text-gray-400 text-base lg:text-xl font-thin tracking-[0.8px] py-10">
+            Email me at :{" "}
+            <span className="text-light font-bold">sergyoubi@gmail.com</span> or
           </p>
-          <p className="text-light text-xl font-thin">
+          <p className="text-light text-base lg:text-xl font-thin">
             Contact Me via{" "}
             <a
               href="https://www.linkedin.com/in/sergy-r-396144203/"

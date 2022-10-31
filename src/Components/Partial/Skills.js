@@ -16,18 +16,18 @@ import MaterialIcon from "../../utils/icon/MaterialIcon";
 const Skills = () => {
   return (
     <>
-      <div className="w-full h-[30%] bg-slate-900 flex justify-center items-center">
-        <p className="text-slate-200 text-3xl font-bold tracking-[0.8px]">
+      <div className="w-full h-[18%] bg-slate-900 flex justify-center items-center">
+        <p className="text-slate-200 text-xl lg:text-3xl font-bold tracking-[0.8px]">
           <span className="text-cyan-300 font-thin">04-</span> Technical Skills
         </p>
       </div>
-      <div className="w-full h-[90%] bg-slate-900 flex flex-col justify-center items-center space-y-3">
+      <div className="w-full h-[60%] lg:h-[90%] bg-slate-900 flex flex-col justify-center items-center space-y-3">
         <div
           id="coding"
           className="w-full h-[30%] flex flex-col justify-center items-center"
         >
           <div className="w-[80%] h-[30%] flex justify-start items-center">
-            <p className="text-light text-xl font-bold tracking-[0.8px]">
+            <p className="text-light text-base lg:text-xl font-bold tracking-[0.8px]">
               Coding Languages
             </p>
           </div>
@@ -35,25 +35,31 @@ const Skills = () => {
             <ul className="w-full h-full flex justify-start items-center space-x-[5%]">
               <li className="text-slate-200 flex justify-center items-center">
                 <HtmlIcon />{" "}
-                <span className="pl-2 font-thin text-sm">HTML 5</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  HTML 5
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <CssIcon />{" "}
-                <span className="pl-2 font-thin text-sm">CSS 3</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  CSS 3
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <JsIcon />{" "}
-                <span className="pl-2 font-thin text-sm">JavaScript (ES6)</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  JavaScript (ES6)
+                </span>
               </li>
             </ul>
           </div>
         </div>
         <div
           id="libraries"
-          className="w-full h-[30%] flex flex-col justify-center items-center"
+          className="w-full h-[50%] md:h-[30%] flex flex-col justify-center items-center"
         >
           <div className="w-[80%] h-[30%] flex justify-start items-center">
-            <p className="text-light text-xl font-bold tracking-[0.8px]">
+            <p className="text-light text-base lg:text-xl font-bold tracking-[0.8px]">
               Libraries & Frameworks
             </p>
           </div>
@@ -61,28 +67,34 @@ const Skills = () => {
             <ul className="w-full h-full flex justify-start items-center space-x-[5%]">
               <li className="text-slate-200 flex justify-center items-center">
                 <NodeJsIcon />
-                <span className="pl-2 font-thin text-sm">
+                <span className="pl-2 font-thin text-sm hidden lg:block">
                   Node.JS / Express.JS
                 </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <ReactJsIcon />{" "}
-                <span className="pl-2 font-thin text-sm">React.JS</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  React.JS
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <MaterialIcon />{" "}
-                <span className="pl-2 font-thin text-sm">Material UI</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  Material UI
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <TailwindIcon />{" "}
-                <span className="pl-2 font-thin text-sm">TailwindCSS</span>
+                <span className="pl-2 font-thin text-sm hidden lg:block">
+                  TailwindCSS
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <FlaskIcon />
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <TensorflowIcon />{" "}
-                <span className="pl-2 font-thin text-sm">
+                <span className="pl-2 font-thin text-sm hidden lg:block">
                   TensorFlow / Keras
                 </span>
               </li>
@@ -94,29 +106,41 @@ const Skills = () => {
           className="w-full h-[30%] flex flex-col justify-center items-center"
         >
           <div className="w-[80%] h-[30%] flex justify-start items-center">
-            <p className="text-light text-xl font-bold tracking-[0.8px]">
+            <p className="text-light text-base lg:text-xl font-bold tracking-[0.8px]">
               Tools & Platforms
             </p>
           </div>
-          <div className="w-[80%] h-[45%] flex justify-start items-center">
-            <ul className="w-full h-full flex justify-start items-center space-x-[5%]">
+          <div className="w-[85%] lg:w-[80%] h-[45%] flex justify-start items-center">
+            <ul className="w-full h-full flex justify-start items-center space-x-[10%] lg:space-x-[5%]">
               <li className="text-slate-200 flex justify-center items-center">
-                <GitIcon /> <span className="pl-2  font-thin text-sm">Git</span>
+                <GitIcon />{" "}
+                <span className="pl-2  font-thin text-sm hidden lg:block">
+                  Git
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <GitHubIcon />{" "}
-                <span className="pl-2  font-thin text-sm">GitHub</span>
+                <span className="pl-2  font-thin text-sm hidden lg:block">
+                  GitHub
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <JiraIcon />{" "}
-                <span className="pl-2  font-thin text-sm">Jira</span>
+                <span className="pl-2  font-thin text-sm hidden lg:block">
+                  Jira
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
-                <NpmIcon /> <span className="pl-2  font-thin text-sm">Npm</span>
+                <NpmIcon />{" "}
+                <span className="pl-2  font-thin text-sm hidden lg:block">
+                  Npm
+                </span>
               </li>
               <li className="text-slate-200 flex justify-center items-center">
                 <MongoDBIcon />{" "}
-                <span className="pl-2  font-thin text-sm">MongoDB</span>
+                <span className="pl-2  font-thin text-sm hidden lg:block">
+                  MongoDB
+                </span>
               </li>
             </ul>
           </div>
