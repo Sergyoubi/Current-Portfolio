@@ -5,7 +5,7 @@ import AsideMenu from "./AsideMenu";
 
 const Header = () => {
   return (
-    <div className="w-full h-[10%] bg-slate-900 z-10 fixed flex justify-center items-center">
+    <div className="w-full h-[10%] bg-slate-900/80 backdrop-blur-sm z-10 fixed flex justify-center items-center">
       <div id="logo" className="w-full h-full flex justify-start items-center">
         <Link
           to="/"
