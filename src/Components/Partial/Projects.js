@@ -16,12 +16,13 @@ const Projects = () => {
           duration={1000}
           direction={"left"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/MERN-Shopping-Cart"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
@@ -37,12 +38,13 @@ const Projects = () => {
           duration={1000}
           direction={"right"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Simple-React.js-Blog"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
@@ -60,12 +62,13 @@ const Projects = () => {
           duration={1000}
           direction={"left"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/CRUD-Book-App"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
@@ -81,12 +84,13 @@ const Projects = () => {
           duration={1000}
           direction={"right"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Expense-Tracker"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
@@ -109,6 +113,7 @@ const Projects = () => {
             href="https://github.com/Sergyoubi/MERN-Shopping-Cart"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base pl-[5%] py-[5%] tracking-[0.8px]">
@@ -131,6 +136,7 @@ const Projects = () => {
             href="https://github.com/Sergyoubi/Simple-React.js-Blog"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base pl-[5%] py-[5%] tracking-[0.8px]">
@@ -153,6 +159,7 @@ const Projects = () => {
             href="https://github.com/Sergyoubi/CRUD-Book-App"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base pl-[5%] py-[5%] tracking-[0.8px]">
@@ -175,6 +182,7 @@ const Projects = () => {
             href="https://github.com/Sergyoubi/Expense-Tracker"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base pl-[5%] py-[5%] tracking-[0.8px]">

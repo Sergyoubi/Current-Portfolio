@@ -3,7 +3,7 @@ const FolderIcon = () => {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="icon icon-tabler icon-tabler-folders relative left-[5%] bottom-[10%]"
+        className="icon icon-tabler icon-tabler-folders relative left-[5%]"
         width="44"
         height="44"
         viewBox="0 0 24 24"
