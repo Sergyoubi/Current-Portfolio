@@ -16,7 +16,7 @@ const Projects = () => {
           duration={1000}
           direction={"left"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/MERN-Shopping-Cart"
@@ -38,7 +38,7 @@ const Projects = () => {
           duration={1000}
           direction={"right"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Simple-React.js-Blog"
@@ -62,7 +62,7 @@ const Projects = () => {
           duration={1000}
           direction={"left"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/CRUD-Book-App"
@@ -84,7 +84,7 @@ const Projects = () => {
           duration={1000}
           direction={"right"}
           triggerOnce
-          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 flex justify-center items-center rounded-md"
+          className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Expense-Tracker"
@@ -107,7 +107,7 @@ const Projects = () => {
           delay={600}
           duration={1000}
           triggerOnce
-          className="w-[80%] h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[80%] h-[90%] bg-gray-800 hover:bg-slate-800 flex flex-col justify-center items-start rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/MERN-Shopping-Cart"
@@ -130,7 +130,7 @@ const Projects = () => {
           delay={600}
           duration={1000}
           triggerOnce
-          className="w-[80%] h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[80%] h-[90%] bg-gray-800 hover:bg-slate-800 flex flex-col justify-center items-start rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Simple-React.js-Blog"
@@ -153,7 +153,7 @@ const Projects = () => {
           delay={600}
           duration={1000}
           triggerOnce
-          className="w-[80%] h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[80%] h-[90%] bg-gray-800 hover:bg-slate-800 flex flex-col justify-center items-start rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/CRUD-Book-App"
@@ -176,7 +176,7 @@ const Projects = () => {
           delay={600}
           duration={1000}
           triggerOnce
-          className="w-[80%] h-[90%] bg-gray-800 flex flex-col justify-center items-start rounded-md"
+          className="w-[80%] h-[90%] bg-gray-800 hover:bg-slate-800 flex flex-col justify-center items-start rounded-md"
         >
           <a
             href="https://github.com/Sergyoubi/Expense-Tracker"
