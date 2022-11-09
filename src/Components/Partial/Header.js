@@ -27,7 +27,7 @@ const Header = () => {
             <GitHubIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/sergy-r-396144203/"
+            href="https://www.linkedin.com/in/sergy-youbi-rafidinjatovo-396144203/"
             target="_blank"
             rel="noreferrer"
           >
