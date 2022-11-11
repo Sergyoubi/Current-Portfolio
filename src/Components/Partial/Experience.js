@@ -25,7 +25,7 @@ const Experience = () => {
                 </a>
               </p>
               <p className="text-light text-xs tracking-[0.8px]">
-                Remote | September 2021 - March 2022
+                Remote | September 2021 - September 2022
               </p>
             </Fade>
           </div>
