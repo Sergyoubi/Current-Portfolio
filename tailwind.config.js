@@ -9,5 +9,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-// #DFF6FF
