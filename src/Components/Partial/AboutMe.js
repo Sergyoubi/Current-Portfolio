@@ -33,12 +33,12 @@ const AboutMe = () => {
                 triggerOnce
                 className="relative lg:left-[5%] top-[3%]"
               >
-                <p className="text-light text-3xl lg:text-5xl font-thin tracking-[1px] select-none">
-                  I use <span className="text-cyan-300">HTML5</span>,{" "}
+                <p className="text-light text-3xl lg:text-5xl font-semibold tracking-[1px] select-none">
+                  Proficient in <span className="text-cyan-300">HTML5</span>,{" "}
                   <span className="text-cyan-300">CSS3</span>,{" "}
                   <span className="text-cyan-300">JavaScript</span> and{" "}
-                  <span className="text-cyan-300">React.JS</span> to build
-                  Websites.
+                  <span className="text-cyan-300">ReactJS</span> for website
+                  development.
                 </p>
               </Fade>
               <Fade
@@ -47,11 +47,12 @@ const AboutMe = () => {
                 triggerOnce
                 className="relative lg:left-[5%] top-[13%]"
               >
-                <p className="text-light text-3xl lg:text-5xl font-thin tracking-[1px] select-none">
-                  My main server-side language is{" "}
-                  <span className="text-cyan-300">JavaScript (Node.JS)</span>,
-                  quite often paired with{" "}
-                  <span className="text-cyan-300">MongoDB</span>.
+                <p className="text-light text-3xl font-thin tracking-[1px] select-none">
+                  My primary server-side language is{" "}
+                  <span className="text-cyan-300">JavaScript (NodeJS)</span>,
+                  and I often utilize{" "}
+                  <span className="text-cyan-300">MongoDB</span> as the database
+                  management system.
                 </p>
               </Fade>
             </div>

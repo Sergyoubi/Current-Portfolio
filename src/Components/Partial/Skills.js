@@ -10,7 +10,6 @@ import GitHubIcon from "../../utils/icon/GitHubIcon";
 import JiraIcon from "../../utils/icon/JiraIcon";
 import NpmIcon from "../../utils/icon/NpmIcon";
 import MongoDBIcon from "../../utils/icon/MongoDBIcon";
-import FlaskIcon from "../../utils/icon/FlaskIcon";
 import MaterialIcon from "../../utils/icon/MaterialIcon";
 import { Fade } from "react-awesome-reveal";
 
@@ -96,9 +95,6 @@ const Skills = () => {
                   <span className="pl-2 font-thin text-sm hidden lg:block">
                     TailwindCSS
                   </span>
-                </li>
-                <li className="text-slate-200 flex justify-center items-center">
-                  <FlaskIcon />
                 </li>
                 <li className="text-slate-200 flex justify-center items-center">
                   <TensorflowIcon />{" "}
