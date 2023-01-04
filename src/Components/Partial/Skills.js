@@ -11,6 +11,7 @@ import JiraIcon from "../../utils/icon/JiraIcon";
 import NpmIcon from "../../utils/icon/NpmIcon";
 import MongoDBIcon from "../../utils/icon/MongoDBIcon";
 import MaterialIcon from "../../utils/icon/MaterialIcon";
+import ReduxIcon from "../../utils/icon/Redux";
 import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
@@ -82,6 +83,12 @@ const Skills = () => {
                   <ReactJsIcon />{" "}
                   <span className="pl-2 font-thin text-sm hidden lg:block">
                     React.JS
+                  </span>
+                </li>
+                <li className="text-slate-200 flex justify-center items-center">
+                  <ReduxIcon />{" "}
+                  <span className="pl-2 font-thin text-sm hidden lg:block">
+                    Redux Toolkit
                   </span>
                 </li>
                 <li className="text-slate-200 flex justify-center items-center">
