@@ -6,7 +6,8 @@ const Projects = () => {
     <>
       <div className="w-full h-[20%] bg-slate-900 flex justify-center items-center">
         <p className="text-slate-200 text-xl lg:text-3xl font-bold tracking-[0.8px]">
-          <span className="text-cyan-300 font-thin">03-</span> Personal Projects
+          <span className="text-cyan-300 font-thin">03-</span>Other Personal
+          Projects
         </p>
       </div>
       <div className="w-full h-[0%] lg:h-[0%] xl:h-[10%] bg-slate-900"></div>

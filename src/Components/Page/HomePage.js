@@ -5,6 +5,7 @@ import Experience from "../Partial/Experience";
 import Header from "../Partial/Header";
 import Intro from "../Partial/Intro";
 import Projects from "../Partial/Projects";
+import Recent from "../Partial/Recent";
 import Skills from "../Partial/Skills";
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Intro />
       <AboutMe />
       <Experience />
+      <Recent />
       <Projects />
       <Skills />
       <Contact />
