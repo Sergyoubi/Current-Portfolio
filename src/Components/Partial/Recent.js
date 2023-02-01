@@ -22,7 +22,8 @@ const Recent = () => {
             other users, responsive.
           </p>
           <p className="text-gray-200">
-            Tech: React.js, Node.js, Express.js, Material UI, Redux Toolkit
+            Tech: React.js, Node.js, Express.js, MongoDB, Material UI, Redux
+            Toolkit
           </p>
         </div>
         <div className="w-full h-full hidden lg:flex justify-center items-center">
