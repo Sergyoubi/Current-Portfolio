@@ -1,14 +1,14 @@
-const GitHubIcon = () => {
+const GitHubIcon = ({ width, height, stroke, strokeWidth }) => {
   return (
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="icon icon-tabler icon-tabler-brand-github"
-        width="30"
-        height="30"
+        width={width}
+        height={height}
         viewBox="0 0 24 24"
-        strokeWidth="2.5"
-        stroke="#ffffff"
+        strokeWidth={strokeWidth}
+        stroke={stroke}
         fill="none"
         strokeLinecap="round"
         strokeLinejoin="round"

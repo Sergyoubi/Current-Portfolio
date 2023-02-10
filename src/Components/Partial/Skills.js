@@ -134,7 +134,12 @@ const Skills = () => {
                   </span>
                 </li>
                 <li className="text-slate-200 flex justify-center items-center">
-                  <GitHubIcon />{" "}
+                  <GitHubIcon
+                    width="30"
+                    height="30"
+                    stroke="#ffffff"
+                    strokeWidth="2.5"
+                  />{" "}
                   <span className="pl-2  font-thin text-sm hidden lg:block">
                     GitHub
                   </span>

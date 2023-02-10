@@ -1,4 +1,5 @@
 import friendLink from "../../utils/images/friendLink.png";
+import GitHubIcon from "../../utils/icon/GitHubIcon";
 
 const Recent = () => {
   return (
@@ -25,6 +26,53 @@ const Recent = () => {
             Tech: React.js, Node.js, Express.js, MongoDB, Material UI, Redux
             Toolkit
           </p>
+          <div className="w-[80%] h-[15%] flex justify-start items-center">
+            <a
+              href="https://github.com/Sergyoubi/friend_Link_Client"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-4 flex justify-center items-center"
+            >
+              <p className="text-gray-100 mr-2 font-thin text-xs">React Code</p>
+              <GitHubIcon
+                width="20"
+                height="20"
+                stroke="#ffffff"
+                strokeWidth="1"
+              />
+            </a>
+            <a
+              href="https://github.com/Sergyoubi/friend_Link_Server"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-4 flex justify-center items-center"
+            >
+              <p className="text-gray-100 mr-2 font-thin text-xs">
+                NodeJS Code
+              </p>
+              <GitHubIcon
+                width="20"
+                height="20"
+                stroke="#ffffff"
+                strokeWidth="1"
+              />
+            </a>
+            {/* 
+            <a
+              href="https://github.com/Sergyoubi/friend_Link_Client"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-4"
+            >
+              <GitHubIcon
+                width="30"
+                height="30"
+                stroke="#ffffff"
+                strokeWidth="2"
+              />
+            </a>
+            */}
+          </div>
         </div>
         <div className="w-full h-full hidden lg:flex justify-center items-center">
           <a
