@@ -11,7 +11,7 @@ const Header = () => {
           to="/"
           className="text-light tracking-[0.8px] text-2xl font-medium relative left-[8%]"
         >
-          Sergy
+          Ethan
         </Link>
       </div>
       <div
@@ -26,11 +26,7 @@ const Header = () => {
           >
             <GitHubIcon />
           </a>
-          <a
-            href="https://www.linkedin.com/in/sergy-rafidinjatovo-396144203/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a target="_blank" rel="noreferrer">
             <LinkedInIcon />
           </a>
         </div>
