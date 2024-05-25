@@ -51,8 +51,9 @@ const AboutMe = () => {
                   My primary server-side language is{" "}
                   <span className="text-cyan-300">JavaScript (NodeJS)</span>,
                   and I often utilize{" "}
-                  <span className="text-cyan-300">MongoDB</span> as the database
-                  management system.
+                  <span className="text-cyan-300">MongoDB</span> or{" "}
+                  <span className="text-cyan-300">Postgres</span> as the
+                  database management system.
                 </p>
               </Fade>
             </div>

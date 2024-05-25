@@ -40,19 +40,10 @@ const Intro = () => {
           triggerOnce
           className="relative top-[7%]"
         >
-          {/* 
-          <p className="w-full md:w-[85%] text-slate-400 text-base lg:text-xl font-thin tracking-[0.8px] relative top-[7%] left-2 md:left-[5%] lg:left-0 select-none">
-            A meticulous Front-End Developer who works with{" "}
-            <span className="font-bold text-cyan-300">React.JS</span>. A Big
-            enthusiast of AI & Machine Learning. I seek way to fix problem using
-            engineering methods.
-          </p>
-          */}
           <p className="w-full md:w-[85%] text-slate-400 text-base lg:text-xl font-thin tracking-[0.8px] relative top-[7%] left-2 md:left-[5%] lg:left-0 select-none">
             As a meticulous Front-End Developer with expertise in{" "}
-            <span className="font-bold text-cyan-300">ReactJS</span>, I am also
-            highly interested in the fields of AI and Machine Learning. <br />I
-            am constantly seeking ways to utilize engineering methods to solve
+            <span className="font-bold text-cyan-300">ReactJS and NodeJS</span>!
+            I am constantly seeking ways to utilize engineering methods to solve
             problems and improve my skills.
           </p>
         </Fade>
