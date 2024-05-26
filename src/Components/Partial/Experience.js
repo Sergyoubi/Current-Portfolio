@@ -9,6 +9,7 @@ const Experience = () => {
           Experience
         </p>
       </div>
+      {/* 
       <div className="w-full h-[90%]  lg:h-[70%] xl:h-[65%] flex justify-center items-center">
         <div className="w-[80%] lg:w-[50%] h-[80%] md:h-[65%] flex flex-col justify-center items-center">
           <div className="w-full h-[25%] lg:h-[20%] flex flex-col justify-center items-start space-y-2">
@@ -53,6 +54,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      */}
     </div>
   );
 };
