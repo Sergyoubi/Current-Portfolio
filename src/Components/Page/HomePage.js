@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import AboutMe from "../Partial/AboutMe";
 import Contact from "../Partial/Contact";
 import Experience from "../Partial/Experience";
+// import Projects from "../Partial/Projects";
 import Header from "../Partial/Header";
 import Intro from "../Partial/Intro";
-import Projects from "../Partial/Projects";
-import Recent from "../Partial/Recent";
+// import Recent from "../Partial/Recent";
 import Skills from "../Partial/Skills";
 
 const HomePage = () => {
@@ -19,8 +19,6 @@ const HomePage = () => {
       <Intro />
       <AboutMe />
       <Experience />
-      <Recent />
-      <Projects />
       <Skills />
       <Contact />
     </div>
