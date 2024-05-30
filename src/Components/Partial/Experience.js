@@ -32,13 +32,14 @@ const Experience = () => {
           </div>
           <div className="w-full h-[75%] lg:h-[80%] flex flex-col justify-center items-center">
             <ul className="text-light text-base lg:text-xl font-thin list-inside list-disc">
-              {/* 
               <Fade delay={600} duration={1800} triggerOnce>
                 <li className="py-[1%] tracking-[0.8px] select-none">
-                  Implemented enhancements that improved the User Experience and
-                  responsiveness of the App using ES6.
+                  Developed high-quality websites, implemented design systems
+                  using technologies such as JavaScript, React, NodeJs,
+                  TailwindCSS and MongoDB.
                 </li>
               </Fade>
+              {/* 
               <Fade delay={700} duration={1800} triggerOnce>
                 <li className="py-[1%] tracking-[0.8px] select-none">
                   Worked closely with designers, developers and management team
