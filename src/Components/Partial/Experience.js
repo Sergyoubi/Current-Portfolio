@@ -39,20 +39,13 @@ const Experience = () => {
                   TailwindCSS and MongoDB.
                 </li>
               </Fade>
-              {/* 
               <Fade delay={700} duration={1800} triggerOnce>
                 <li className="py-[1%] tracking-[0.8px] select-none">
-                  Worked closely with designers, developers and management team
-                  to develop the project requirements, goals, and desired
-                  functionality.
+                  Lead the development and architecture of technical tools like
+                  REST APIs, and continuous integration pipelines to fulfill
+                  business requirements.
                 </li>
               </Fade>
-              <Fade delay={800} duration={1800} triggerOnce>
-                <li className="py-[1%] tracking-[0.8px] select-none">
-                  Maintained code and proposed solutions to issues identified.
-                </li>
-              </Fade>
-              */}
             </ul>
           </div>
         </div>
