@@ -46,6 +46,12 @@ const Experience = () => {
                   business requirements.
                 </li>
               </Fade>
+              <Fade delay={700} duration={1800} triggerOnce>
+                <li className="py-[1%] tracking-[0.8px] select-none">
+                  Built and delivered technical solutions according to business
+                  requirements.
+                </li>
+              </Fade>
             </ul>
           </div>
         </div>
