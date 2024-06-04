@@ -52,6 +52,12 @@ const Experience = () => {
                   requirements.
                 </li>
               </Fade>
+              <Fade delay={700} duration={1800} triggerOnce>
+                <li className="py-[1%] tracking-[0.8px] select-none">
+                  Managed customer inquiries via email and chat, giving prompt
+                  answers to customer questions.
+                </li>
+              </Fade>
             </ul>
           </div>
         </div>
