@@ -31,7 +31,7 @@ const Intro = () => {
           className="relative left-2 md:left-[5%] lg:left-0"
         >
           <p className="text-slate-300 text-3xl lg:text-7xl font-bold tracking-[0.8px]">
-            I'm a Full-stack software Developer.
+            I'm a FullStack software Developer.
           </p>
         </Fade>
         <Fade

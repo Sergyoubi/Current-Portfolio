@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import AboutMe from "../Partial/AboutMe";
+//import AboutMe from "../Partial/AboutMe";
 import Contact from "../Partial/Contact";
 import Experience from "../Partial/Experience";
 // import Projects from "../Partial/Projects";
@@ -17,10 +17,11 @@ const HomePage = () => {
     <div className="w-screen h-screen bg-slate-900">
       <Header />
       <Intro />
-      <AboutMe />
       <Experience />
+      {/* 
       <Skills />
       <Contact />
+      */}
     </div>
   );
 };
