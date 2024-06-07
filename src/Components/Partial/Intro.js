@@ -10,7 +10,7 @@ const Intro = () => {
           triggerOnce
           className="relative left-2 md:left-[5%] lg:left-0"
         >
-          <p className="text-cyan-300 font-thin text-base tracking-[0.8px]">
+          <p className="text-cyan-300 font-thin text-xl tracking-[0.8px]">
             Hello, my name is
           </p>
         </Fade>
