@@ -8,8 +8,7 @@ const Experience = () => {
           Professional Experience
         </p>
       </div>
-
-      <div className="w-full h-[90%] lg:h-[70%] xl:h-[80%] bg-slate-900 flex justify-center items-center">
+      <div className="w-full h-[90%] lg:h-[70%] xl:h-[40%] bg-slate-900 flex justify-center items-center">
         <div className="w-[80%] lg:w-[50%] h-[80%] flex flex-col justify-center items-center">
           <div className="w-full h-[25%] lg:h-[20%] flex flex-col justify-center items-start space-y-2">
             <Fade delay={500} duration={1800} triggerOnce>
@@ -48,10 +47,9 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      {/* 
-      <div className="w-full h-[90%] lg:h-[70%] xl:h-[80%] bg-slate-900 flex justify-center items-center">
-        <div className="w-[80%] lg:w-[50%] h-[80%] flex flex-col justify-center items-center">
-          <div className="w-full h-[25%] lg:h-[20%] flex flex-col justify-center items-start space-y-2">
+      <div className="w-full h-[90%] lg:h-[40%] bg-slate-900 flex justify-center items-center">
+        <div className="w-[80%] lg:w-[50%] h-[50%] flex flex-col justify-center items-center">
+          <div className="w-full h-[25%] flex flex-col justify-center items-start space-y-2">
             <Fade delay={500} duration={1800} triggerOnce>
               <p className="text-light text-lg lg:text-xl font-bold tracking-[0.8px]">
                 Frontend software engineer {""}
@@ -83,7 +81,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      */}
     </>
   );
 };
