@@ -4,7 +4,6 @@ import JsIcon from "../../utils/icon/JsIcon";
 import NodeJsIcon from "../../utils/icon/NodeJsIcon";
 import ReactJsIcon from "../../utils/icon/ReactJsIcon";
 import TailwindIcon from "../../utils/icon/TailwindIcon";
-import TensorflowIcon from "../../utils/icon/Tensorflow";
 import GitIcon from "../../utils/icon/GitIcon";
 import GitHubIcon from "../../utils/icon/GitHubIcon";
 import JiraIcon from "../../utils/icon/JiraIcon";
@@ -12,6 +11,7 @@ import NpmIcon from "../../utils/icon/NpmIcon";
 import MongoDBIcon from "../../utils/icon/MongoDBIcon";
 import MaterialIcon from "../../utils/icon/MaterialIcon";
 import ReduxIcon from "../../utils/icon/Redux";
+import Postgres from "../../utils/icon/Postgresql";
 import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
@@ -103,12 +103,6 @@ const Skills = () => {
                     TailwindCSS
                   </span>
                 </li>
-                <li className="text-slate-200 flex justify-center items-center">
-                  <TensorflowIcon />{" "}
-                  <span className="pl-2 font-thin text-sm hidden lg:block">
-                    TensorFlow / Keras
-                  </span>
-                </li>
               </ul>
             </Fade>
           </div>
@@ -160,6 +154,12 @@ const Skills = () => {
                   <MongoDBIcon />{" "}
                   <span className="pl-2  font-thin text-sm hidden lg:block">
                     MongoDB
+                  </span>
+                </li>
+                <li className="text-slate-200 flex justify-center items-center">
+                  <Postgres />{" "}
+                  <span className="pl-2  font-thin text-sm hidden lg:block">
+                    PostgreSQL
                   </span>
                 </li>
               </ul>

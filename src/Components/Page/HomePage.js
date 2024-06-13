@@ -18,10 +18,8 @@ const HomePage = () => {
       <Header />
       <Intro />
       <Experience />
-      {/* 
       <Skills />
       <Contact />
-      */}
     </div>
   );
 };

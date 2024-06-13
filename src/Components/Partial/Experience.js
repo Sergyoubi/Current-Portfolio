@@ -8,7 +8,7 @@ const Experience = () => {
           Professional Experience
         </p>
       </div>
-      <div className="w-full h-[90%] lg:h-[70%] xl:h-[40%] bg-slate-900 flex justify-center items-center">
+      <div className="w-full h-[90%] lg:h-[70%] bg-slate-900 flex justify-center items-center">
         <div className="w-[80%] lg:w-[50%] h-[80%] flex flex-col justify-center items-center">
           <div className="w-full h-[25%] lg:h-[20%] flex flex-col justify-center items-start space-y-2">
             <Fade delay={500} duration={1800} triggerOnce>
@@ -47,7 +47,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[90%] lg:h-[40%] bg-slate-900 flex justify-center items-center">
+      <div className="w-full h-[90%] lg:h-[70%] bg-slate-900 flex justify-center items-center">
         <div className="w-[80%] lg:w-[50%] h-[50%] flex flex-col justify-center items-center">
           <div className="w-full h-[25%] flex flex-col justify-center items-start space-y-2">
             <Fade delay={500} duration={1800} triggerOnce>
@@ -75,6 +75,11 @@ const Experience = () => {
                   Architected and implemented the user interface using
                   technologies such as React, JavaScript, TailwindCSS and
                   Material UI.
+                </li>
+                <li className="py-[1%] tracking-[0.8px] select-none">
+                  Worked alongside project managers, designers, and Backend
+                  engineers to transform creative concepts into refined digital
+                  experiences.
                 </li>
               </Fade>
             </ul>

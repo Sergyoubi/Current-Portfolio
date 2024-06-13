@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import resume_Sergy from "../../utils/resume/resume_Sergy.pdf";
+import resume_Sergy from "../../utils/resume/resume_Ethan.pdf";
 
 const ResumePage = () => {
   useEffect(() => {

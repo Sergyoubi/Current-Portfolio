@@ -11,7 +11,7 @@ const Contact = () => {
         >
           <Fade delay={600} duration={1000} direction={"left"} triggerOnce>
             <p className="text-slate-300 text-3xl lg:text-6xl font-bold lg:font-semibold py-5 tracking-[0.8px]">
-              Want To Get In Touch ?
+              Want to get in touch ?
             </p>
           </Fade>
           <Fade delay={700} duration={1000} direction={"right"} triggerOnce>
@@ -25,7 +25,7 @@ const Contact = () => {
             <p className="text-light text-base lg:text-xl font-thin">
               Contact Me via{" "}
               <a
-                href="https://www.linkedin.com/in/sergy-r-396144203/"
+                href="https://www.linkedin.com/in/ethan-sergy-396144203/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-cyan-300"
@@ -40,7 +40,7 @@ const Contact = () => {
           className="w-full h-[40%] flex justify-center items-end"
         >
           <p className="font-thin text-sm text-cyan-300 relative bottom-[10%]">
-            Designed & Developed by Sergy
+            Designed & Developed by Ethan
           </p>
         </div>
       </div>
