@@ -26,7 +26,11 @@ const Header = () => {
           >
             <GitHubIcon />
           </a>
-          <a target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/ethan-sergy-396144203/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
         </div>
