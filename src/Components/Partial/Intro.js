@@ -40,11 +40,9 @@ const Intro = () => {
           triggerOnce
           className="relative top-[7%]"
         >
-          <p className="w-full md:w-[85%] text-slate-400 text-base lg:text-xl font-thin tracking-[0.8px] relative top-[7%] left-2 md:left-[5%] lg:left-0 select-none">
+          <p className="w-full text-slate-400 text-base lg:text-xl font-thin tracking-[0.8px] relative top-[7%] left-2 md:left-[5%] lg:left-0 select-none">
             As a meticulous Software developer with expertise in{" "}
             <span className="font-bold text-cyan-300">ReactJS and NodeJS</span>!
-            I am constantly seeking ways to utilize engineering methods to solve
-            problems and improve my skills.
           </p>
         </Fade>
       </div>
