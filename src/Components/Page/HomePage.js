@@ -2,7 +2,7 @@ import { useEffect } from "react";
 //import AboutMe from "../Partial/AboutMe";
 import Contact from "../Partial/Contact";
 import Experience from "../Partial/Experience";
-// import Projects from "../Partial/Projects";
+import Projects from "../Partial/Projects";
 import Header from "../Partial/Header";
 import Intro from "../Partial/Intro";
 // import Recent from "../Partial/Recent";
@@ -18,6 +18,7 @@ const HomePage = () => {
       <Header />
       <Intro />
       <Experience />
+      <Projects />
       <Skills />
       <Contact />
     </div>

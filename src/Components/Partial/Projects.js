@@ -20,17 +20,19 @@ const Projects = () => {
           className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
-            href="https://github.com/Sergyoubi/MERN-Shopping-Cart"
+            href="https://github.com/Sergyoubi/Bank-App"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
-              React.js Shopping Cart
+              Financial App (allows users to transfer money to other platform
+              users)
             </p>
             <p className="text-slate-300 text-sm font-thin pl-[5%] py-[5%] tracking-[0.8px]">
-              Tech : React.js, Redux, CSS3
+              Tech : Next.js, ShadCN, TypeScript, Appwrite, Plaid, Dwolla, React
+              Hook Form, Zod, TailwindCSS, Chart.js
             </p>
           </a>
         </Fade>
@@ -42,17 +44,19 @@ const Projects = () => {
           className="w-[40%] lg:w-[25%] md:h-[80%] lg:h-[90%] bg-gray-800 hover:bg-slate-800 flex justify-center items-center rounded-md"
         >
           <a
-            href="https://github.com/Sergyoubi/Simple-React.js-Blog"
+            href="https://github.com/Sergyoubi/friend_Link_Client"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-full flex flex-col justify-center items-start"
           >
             <FolderIcon />
             <p className="text-light font-bold text-base lg:text-2xl pl-[5%] py-[5%] tracking-[0.8px]">
-              Simple React.js Blog
+              Social media App (Create post, like post, share post, dark/light
+              mode, Sign in, Sign up,...)
             </p>
             <p className="text-slate-300 text-sm font-thin pl-[5%] py-[5%] tracking-[0.8px]">
-              Tech : React.js, CSS3, db.json
+              Tech : React.js, MUI, TailwindCSS, JWT, Redux Toolkit, MongoDB,
+              NodeJS
             </p>
           </a>
         </Fade>
